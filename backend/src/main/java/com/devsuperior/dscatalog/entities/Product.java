@@ -86,6 +86,14 @@ public class Product implements Serializable {
 	public String getImgUrl() {
 		return imgUrl;
 	}
+	
+	public void setDate(Instant date) {
+		this.date = date;
+	}
+	
+	public Instant getDate() {
+		return date;
+	}
 
 	public void setImgUrl(String imgUrl) {
 		this.imgUrl = imgUrl;
